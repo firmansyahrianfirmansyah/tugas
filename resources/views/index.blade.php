@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Rekayasa Perangkat Lunak - SNK ASSALAAM BANDUNG</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">SMK ASSALAAM</a>
+                <a href="#"><img src="#" srcset="https://www.smkassalaambandung.sch.id/style/images/logo.svg 1x, https://www.smkassalaambandung.sch.id/style/images/logo.svg 2x" class="logo-light" alt="" style="width: 230px; height: 50px;" />
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,13 +53,14 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Prestasi
+                        </a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Alumni</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Berita</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Kurikulum</a>
@@ -78,9 +79,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Majors!</div>
+                <div class="intro-lead-in">Welcome To Information Profil</div>
                 <div class="intro-heading">Rekayasa Perangkat Lunak</div>
-                <a href="#services" class="page-scroll btn btn-xl">Masuk</a>
+                <a href="{{url('/login')}}" class="page-scroll btn btn-xl">Masuk</a>
             </div>
         </div>
     </header>
@@ -90,8 +91,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Siswa Berprestasi</h2>
+                    <h3 class="section-subheading text-muted">Rekayasa Perangkat Lunak</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -128,8 +129,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Daftar Alumni</h2>
+                    <h3 class="section-subheading text-muted">Rekayasa Perangkat Lunak</h3>
                 </div>
             </div>
             <div class="row">
@@ -226,8 +227,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">RPL News</h2>
+                    <h3 class="section-subheading text-muted">Rekayasa Perangkat Lunak</h3>
                 </div>
             </div>
             <div class="row">
@@ -235,12 +236,12 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/5.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>2016-2017</h4>
+                                    <h4 class="subheading">Juara 3 LKS</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -318,46 +319,61 @@
                         <h4>Ute Kurnia</h4>
                         <p class="text-muted">Kepala Program</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img src="img/team/agung.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Agung Wahyudi</h4>
+                        <p class="text-muted">Kepala Lab</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img src="img/team/wildan.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Wildan Abdul Aziz</h4>
+                        <p class="text-muted">Kepala Lab</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/agung.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Agung Wahyudi</h4>
+                        <p class="text-muted">Kepala Lab</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
@@ -372,22 +388,22 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/envato.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/mozillafirefox.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/reps.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/android.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
             </div>
@@ -399,8 +415,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Get in Touch</h2>
+                    <h3 class="section-subheading text-muted">Untuk Saran & Kritik, anda bisa mengirimkannya dengan mengisi form dibawa ini</h3>
                 </div>
             </div>
             <div class="row">
