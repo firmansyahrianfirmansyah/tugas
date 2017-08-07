@@ -92,22 +92,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.png" class="img-responsive img-centered" alt="">
+                    <a href="https://www.belogix.com/">
+                        <img src="img/logos/logix.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                    <a href="https://www.mozilla.org/id/">
                         <img src="img/logos/mozillafirefox.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                    <a href="https://brunelstudents.com/reps/">
                         <img src="img/logos/reps.jpg" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
+                    <a href="https://developer.android.com/studio/index.html?hl=id">
                         <img src="img/logos/android.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
